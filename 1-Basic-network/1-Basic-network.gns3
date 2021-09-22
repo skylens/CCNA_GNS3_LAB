@@ -1,0 +1,208 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "1-Basic-network",
+    "project_id": "4391a24a-fe4a-4abb-b49b-dd0bd8a45eba",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "7aa268f6-c9ec-48a9-a93a-30cf2fa49306",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg height=\"52\" width=\"160\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"MS Shell Dlg 2\" font-size=\"11.0\" font-weight=\"bold\">1-Basic-Network\n</text></svg>",
+                "x": -177,
+                "y": -289,
+                "z": 2
+            },
+            {
+                "drawing_id": "1fbf1e63-3bb0-42cf-be7a-18a63a4883ed",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg height=\"30\" width=\"612\"><text fill=\"#ff0000\" fill-opacity=\"1.0\" font-family=\"MS Shell Dlg 2\" font-size=\"11.0\" font-weight=\"bold\">http://ccietea.com/Folder_CCNA/CCNA_LAB.htm#_Toc415400111</text></svg>",
+                "x": -89,
+                "y": -240,
+                "z": 2
+            },
+            {
+                "drawing_id": "d09c4f21-6105-43c8-89e3-9b46c35d74a3",
+                "locked": true,
+                "rotation": 0,
+                "svg": "<svg height=\"26\" width=\"195\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"MS Shell Dlg 2\" font-size=\"9.0\">192.168.12.1 255.255.255.0</text></svg>",
+                "x": -288,
+                "y": -23,
+                "z": 2
+            },
+            {
+                "drawing_id": "2728941e-5c0c-4120-9567-36a641ed5149",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"26\" width=\"195\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"MS Shell Dlg 2\" font-size=\"9.0\">192.168.12.2 255.255.255.0</text></svg>",
+                "x": -55,
+                "y": -26,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "3c9a5933-6b84-4984-b187-1c731b7078f4",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 11.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0",
+                            "x": 66,
+                            "y": 39
+                        },
+                        "node_id": "3090a785-2035-4087-8129-8b454d36a285",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: MS Shell Dlg 2;font-size: 11.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0",
+                            "x": -36,
+                            "y": 33
+                        },
+                        "node_id": "3e47f2fe-6ed3-4f09-8e63-5bc0b711c34a",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "vm",
+                "console": 5000,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MS Shell Dlg 2;font-size: 11.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 17,
+                    "y": -25
+                },
+                "locked": true,
+                "name": "R1",
+                "node_id": "3090a785-2035-4087-8129-8b454d36a285",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": false,
+                    "aux": null,
+                    "chassis": "1720",
+                    "clock_divisor": 8,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 1,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x80358a60",
+                    "idlesleep": 30,
+                    "image": "c1700-adventerprisek9-mz.124-25d.image",
+                    "image_md5sum": "7f4ae12a098391bc0edcaf4f44caaf9d",
+                    "iomem": 15,
+                    "mac_addr": "d001.0732.0000",
+                    "mmap": true,
+                    "nvram": 128,
+                    "platform": "c1700",
+                    "ram": 160,
+                    "slot0": "C1700-MB-1FE",
+                    "sparsemem": false,
+                    "system_id": "FTX0945W0MY",
+                    "usage": "",
+                    "wic0": null,
+                    "wic1": null
+                },
+                "symbol": ":/symbols/classic/router.svg",
+                "template_id": "70bdf953-cffd-489f-86c5-49f360e1f476",
+                "width": 66,
+                "x": -281,
+                "y": -98,
+                "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5001,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: MS Shell Dlg 2;font-size: 11.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R2",
+                    "x": 17,
+                    "y": -25
+                },
+                "locked": true,
+                "name": "R2",
+                "node_id": "3e47f2fe-6ed3-4f09-8e63-5bc0b711c34a",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": false,
+                    "aux": null,
+                    "chassis": "1720",
+                    "clock_divisor": 8,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 2,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "0x80358a60",
+                    "idlesleep": 30,
+                    "image": "c1700-adventerprisek9-mz.124-25d.image",
+                    "image_md5sum": "7f4ae12a098391bc0edcaf4f44caaf9d",
+                    "iomem": 15,
+                    "mac_addr": "d002.0742.0000",
+                    "mmap": true,
+                    "nvram": 128,
+                    "platform": "c1700",
+                    "ram": 160,
+                    "slot0": "C1700-MB-1FE",
+                    "sparsemem": false,
+                    "system_id": "FTX0945W0MY",
+                    "usage": "",
+                    "wic0": null,
+                    "wic1": null
+                },
+                "symbol": ":/symbols/classic/router.svg",
+                "template_id": "70bdf953-cffd-489f-86c5-49f360e1f476",
+                "width": 66,
+                "x": 47,
+                "y": -100,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.25",
+    "zoom": 100
+}
