@@ -199,8 +199,8 @@
         ],
         "nodes": [
             {
-                "compute_id": "local",
-                "console": 5001,
+                "compute_id": "vm",
+                "console": 5002,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -228,8 +228,8 @@
                 "z": 1
             },
             {
-                "compute_id": "local",
-                "console": 5007,
+                "compute_id": "vm",
+                "console": 5004,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -285,7 +285,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5008,
+                "console": 5005,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -315,7 +315,7 @@
                     "idlemax": 500,
                     "idlepc": "0x60bcf9f8",
                     "idlesleep": 30,
-                    "image": "c2691-adventerprisek9-mz.124-15.T14.image",
+                    "image": "C:/Users/skylens/GNS3/images/dynamips/c2691-adventerprisek9-mz.124-15.T14.image",
                     "image_md5sum": "e7ee5a4a57ed1433e5f73ba6e7695c90",
                     "iomem": 5,
                     "mac_addr": "c002.07ba.0000",
@@ -341,7 +341,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5009,
+                "console": 5006,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -371,7 +371,7 @@
                     "idlemax": 500,
                     "idlepc": "0x60bcf9f8",
                     "idlesleep": 30,
-                    "image": "c2691-adventerprisek9-mz.124-15.T14.image",
+                    "image": "C:/Users/skylens/GNS3/images/dynamips/c2691-adventerprisek9-mz.124-15.T14.image",
                     "image_md5sum": "e7ee5a4a57ed1433e5f73ba6e7695c90",
                     "iomem": 5,
                     "mac_addr": "c003.07ca.0000",
